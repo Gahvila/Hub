@@ -1,0 +1,12 @@
+name: Hub
+version: ${project.version}
+main: net.gahvila.hub.Hub
+authors: [ Jokni ]
+description: Gahvilan hub plugin
+commands:
+  plugins:
+    aliases: pl
+  spawn:
+  palvelinvalikko:
+  op:
+  kauppa:
