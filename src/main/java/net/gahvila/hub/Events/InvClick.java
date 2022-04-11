@@ -37,14 +37,6 @@ public class InvClick implements Listener {
                     e.setCancelled(true);
                     break;
             }
-        }else if (e.getView().getTitle().equals("§8» §e§lKauppa")) {
-            int i = e.getSlot();
-            switch (i) {
-                case 3:
-                    e.setCancelled(true);
-                    p.closeInventory();
-                    break;
-            }
         }
     }
 }
